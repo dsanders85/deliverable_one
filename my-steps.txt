@@ -1,85 +1,190 @@
 ### Step 2A
+delan@BANDITCHOCOLATE MINGW64 ~
+$ pwd
+/c/Users/delan
 
 
 ### Step 2B
+delan@BANDITCHOCOLATE MINGW64 ~
+$ cd Desktop
+
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop
 
 
 ### Step 2C
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop
+$ ls
+'Document 2.docx'   unit1-git-practice/
+
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop
+$ cd unit1-git-practice
+
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
 
 
 ### Step 2D
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ pwd
+/c/Users/delan/Desktop/unit1-git-practice
 
 ### Step 2E
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ ls
 
 ### Step 2F
+my-steps.txt
 
 
 ### Step 2G
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ cd /c/
 
+delan@BANDITCHOCOLATE MINGW64 /c
 
 ### Step 2H
-
+delan@BANDITCHOCOLATE MINGW64 /c
+$ pwd
+/c
+ls
 
 ### Step 2I
+delan@BANDITCHOCOLATE MINGW64 /c
+$ ls
+'$Recycle.Bin'/             Microsoft/                    Windows/
+ Config/                    OneDriveTemp/                 XboxGames/
+ Config.Msi/                PerfLogs/                     bootTel.dat
+ DRIVERS/                  'Program Files'/               devlist.txt
+'Documents and Settings'@  'Program Files (x86)'/         eSupport/
+ DumpStack.log              ProgramData/                  hiberfil.sys
+ DumpStack.log.tmp          Recovery/                     pagefile.sys
+ Finish.log                'System Volume Information'/   swapfile.sys
+ GetDeviceStatus.xml        Users/
+
 
 
 ### Step 2J
+delan@BANDITCHOCOLATE MINGW64 /c
+$ cd ~
+
+delan@BANDITCHOCOLATE MINGW64 ~
 
 
 ### Step 2K
+delan@BANDITCHOCOLATE MINGW64 ~
+$ cd Desktop/unit1-git-practice
 
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
 
 ### Step 3A
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir veggies
 
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir meats
+
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir desserts
 
 ### Step 3B
-
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ mv desserts/ sweets
+mkdir
 ### Step 3C
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir proteins
 
 ### Step 3D
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ mv meats/ proteins/
 
 ### Step 3E
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ cd veggies/
 
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ touch carrot.txt
+
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ touch pea.txt
 
 ### Step 3F
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ cd ..
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ cd sweets/
 
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice/sweets
+$ touch cookie.txt
 
 ### Step 3G
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice/sweets
+$ mv cookie.txt donut.txt
 
 ### Step 3H
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice/sweets
+$ cd ..
 
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ touch thing.txt
 
 ### Step 3I
-
+lsdelan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ cp thing.txt tofu.txt
 
 ### Step 3J
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ mv tofu.txt proteins/
 
-
-### Step 3K
-
+cp### Step 3K
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ cp thing.txt crab.txt
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ mv crab.txt proteins/meats/
 
 ### Step 3L
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ rm thing.txt
 
 ### Step 3M
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ cp -r veggies/ plants
 
 ### Step 3N
-
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir drinks
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ rm -r drinks/
 
 ### Step 4
+delan@BANDITCHOCOLATE MINGW64 ~
+$ git --version
+git version 2.42.0.windows.2
 
+delan@BANDITCHOCOLATE MINGW64 ~
+$ git config --global user.name "delano"
+
+delan@BANDITCHOCOLATE MINGW64 ~
+$ git config --global user.email "delanosanders85@gmail.com"
+
+delan@BANDITCHOCOLATE MINGW64 ~
+$ git config --list
+delan@BANDITCHOCOLATE MINGW64 ~
+$ cd Desktop/unit1-git-practice/
 
 ### Step 5
-
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice
+$ git init
+Initialized empty Git repository in C:/Users/delan/Desktop/unit1-git-practice/.git/
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice (master)
+$ git add .
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice (master)
+$ git status
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice (master)
+$ git commit -m "First commit for deliverable one"
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice (master)
+$ git remote add origin https://github.com/dsanders85/deliverable_one.git
+git branch -M main
+git push -u origin main
 
 ### Step 6
 
