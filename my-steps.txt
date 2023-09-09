@@ -187,6 +187,16 @@ git branch -M main
 git push -u origin main
 
 ### Step 6
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice (main)
+$ touch menu.txt
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git status
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git add .
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git commit -m "starting a menu"
+delan@BANDITCHOCOLATE MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git push
 
 
 ### Step 7
